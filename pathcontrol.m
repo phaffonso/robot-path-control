@@ -1,3 +1,8 @@
+% Robot Path Control
+% Author: Pedro Affonso
+% Loads a planned path, then uses a simple PID controller
+% to make a robot follow that path
+
 close all
 
 %loads 'mapa' and 'straj' variables

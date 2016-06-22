@@ -1,5 +1,5 @@
 %Given that your environment has all the variables created by the path control
-%algorithm, this file plots the desired & real path and displays the parameters used
+%algorithm, this file plots the planned & real path and displays the parameters used
 %Useful to visualize data from a saved session
 
 close all
