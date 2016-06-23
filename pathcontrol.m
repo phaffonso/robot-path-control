@@ -11,6 +11,7 @@ load smoothtraj.mat
 PoseXIni = 500;
 PoseYIni = 1800;
 
+%0 for simulator on localhost, 1 for real robot on 10.1.3.130
 realrob = 0;
 
 if(realrob)
@@ -38,13 +39,13 @@ plot(straj(:, 1), straj(:, 2), '-*b');
 plot(PoseXIni, PoseYIni, 'ok');
 
 %parameters
-Kp = 0.4;
-Kd = 0.7;
+Kp = 0.6;
+Kd = 0.4;
 Ki = 0;
-v = 60;
+v = 100;
 goalRadius = 70;
 
-dt = 0.5;
+dt = 0.3;
 
 %initialization
 integral = 0;
